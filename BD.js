@@ -75,6 +75,7 @@ class BD {
 }
 
 let bd = new BD()
+let otherPage
 
 function registerBudget() {
 	let year = document.querySelector('#year')
@@ -111,7 +112,9 @@ function registerBudget() {
 		description.value = ''
 		valueBudget.value = ''
 
-	} else {
+		otherPage = true
+
+	} else if(otherPage == false) {
 
 		document.querySelector('#modal_titulo').innerHTML = 'Inclusion Error'
 		document.querySelector('#modal_titulo_div').className = 'modal-header text-danger'
@@ -182,8 +185,9 @@ function searchBudget(){
 
 	let budget = new Budget(year, month, day, type, description, valueBudget)
 
-	let budgets = bd.search(budget)
+    console.log(year, month)
 
+	let budgets = bd.search(budget)
 
 	 
 	this.loadBudgetList(budgets, true)
