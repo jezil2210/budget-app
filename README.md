@@ -14,3 +14,5 @@
    
    <img src="assets/images/initial.png" width="50%" height="50%"/>
    <img src="assets/images/search.png" width="50%" height="50%"/>
+
+<p>Obs: Caso a pagina trave o problema é causado pelo armazenamento em localStorage, que foi ultilizado por medidas didáticas, mas não sendo o aconselhado a ser usado para armazenamento dos dados, para corrigir só limpar o localStorage</p>
