@@ -14,3 +14,5 @@
    
    <img src="assets/images/initial.png" width="50%" height="50%"/>
    <img src="assets/images/search.png" width="50%" height="50%"/>
+   <img src="assets/images/success.png" width="50%" height="50%"/>
+
