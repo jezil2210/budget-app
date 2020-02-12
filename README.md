@@ -13,5 +13,4 @@
 <p>Obviamente após os dados das despesas serem inseridos eles continuam armazenados na página, utilizando LocalStorage do navegador web</p>
    
    <img src="assets/images/initial.png" width="50%" height="50%"/>
-   <img src="assets/images/gameM.png" width="50%" height="50%"/>
-   <img src="assets/images/over.png" width="50%" height="50%"/>
+   <img src="assets/images/search.png" width="50%" height="50%"/>

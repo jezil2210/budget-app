@@ -26,8 +26,6 @@ search.addEventListener('click', () => {
     modalFather.append("<div class='row' style='margin-left: 8%; margin-top: 2%;'><div class='col'><table class='table' ><thead><tr><th>Date</th><th>Type</th><th>Description</th><th>Value</th><th></th></tr></thead><tbody id='budgetList'> </tbody></table></div></div>")
     allowed = false
   }
-
-  //modalFather.style.marginLeft = '30px'
-
+   
   loadBudgetList()
 });
